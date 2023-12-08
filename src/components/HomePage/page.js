@@ -18,6 +18,7 @@ import { useEffect } from 'react';
 import Skills from '../Skills/page';
 import Offerings from '../Offerings/page';
 import './_homepage.scss';
+import Image from 'next/image';
 
 const HomePage = () => {
     useEffect(() => {
@@ -34,7 +35,7 @@ const HomePage = () => {
                 <div className={'landing-page__designation'}>Software Engineer |  Fullstack Developer</div>
 
                 <Tile style={{ marginRight: '20px', marginTop: '40px' }} className={'landing-page__description'}>
-                    I'm a passionate full stack developer, specialized in React (Frontend) and several javascript frameworks
+                    I&apos;m a passionate full stack developer, specialized in React (Frontend) and several javascript frameworks
                     for backend. I also like to contribute to open source development and active contributor to
                     many open source development projects.
                 </Tile>
@@ -55,7 +56,7 @@ const HomePage = () => {
             </Column>
 
             <Column lg={6} md={8} sm={4}>
-                <img data-aos={'fade-left'} data-aos-once="false" data-aos-duration={3000} className={'responsive'} src={developer} alt={'fj'} />
+                <Image data-aos={'fade-left'} data-aos-once="false" data-aos-duration={3000} className={'responsive'} src={developer} alt={'fj'} />
 
             </Column>
 

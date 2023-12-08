@@ -53,7 +53,7 @@ const Timeline = () => {
                       L3 Support Software Engineer for Lotus Domino servers and  Lotus Notes Client
                     </li>
                     <li style={{paddingTop: '1vh'}}>
-                      Handle PMR's from worldwide Clients and also assist escalations from L2 support teams
+                      Handle PMR&apos;s from worldwide Clients and also assist escalations from L2 support teams
                     </li>
 
                   </ul>
@@ -77,7 +77,7 @@ const Timeline = () => {
                     L2 Support Software Engineer for Lotus Domino servers and  Lotus Notes Client
                   </li>
                   <li style={{paddingTop: '1vh'}}>
-                    Handle PMR's from worldwide Clients for Crash, Hang and Performance issues on Lotus Domino Servers.
+                    Handle PMR&apos;s from worldwide Clients for Crash, Hang and Performance issues on Lotus Domino Servers.
                   </li>
 
                 </ul>
