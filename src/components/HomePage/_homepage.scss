@@ -1,0 +1,98 @@
+@use '@carbon/react/scss/spacing' as *;
+@use '@carbon/react/scss/type' as *;
+@use '@carbon/react/scss/breakpoint' as *;
+@use '@carbon/react/scss/theme' as *;
+@use './mixins.scss' as *;
+@use './overrides.scss';
+@use '@carbon/colors';
+@use '@carbon/themes';
+//@import '@carbon/colors/scss/colors';
+
+.author-name{
+  max-width: 100%;
+  height: auto;
+}
+
+.description {
+  background-color: $layer
+}
+
+.landing-page__background {
+  padding-top: $spacing-05;
+  padding-bottom: $spacing-07 * 4;
+  padding-left: $spacing-06;
+  background-color: $background
+ // @include landing-page-background;
+}
+
+.landing-page__heading {
+  @include type-style('heading-05')
+}
+
+.landing-page__designation {
+  padding-top: $spacing-05;
+  color: colors.$red-50;
+  @include type-style('heading-03')
+}
+
+.landing-page__description {
+  border-radius: 5vh;
+  vertical-align : bottom;
+  background-image: linear-gradient(134deg, rgb(5, 64, 200) 0%, rgb(138, 63, 252) 100%);
+  color: #fff;
+  @include type-style('body-02');
+  @media (min-width:640px) {
+
+  }
+}
+
+.skill-layout {
+  //background: linear-gradient(134deg, rgb(5, 64, 200) 0%, rgb(138, 63, 252) 100%);
+  max-width: 100%;
+  height: auto;
+  padding: 2vh;
+  //z-index: 0;
+  width: 100%;
+}
+
+.skill-tile {
+  margin: 1vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+  padding: 1rem;
+  margin: 1px;
+  box-sizing: border-box;
+  cursor: pointer;
+  background-color: var(--cds-layer, #161616);
+  position: relative;
+}
+
+.experience-header {
+  @include type-style('heading-04');
+  margin: 2vh;
+  //color: colors.$red-50;
+  /*color:  var(--cds-text-primary, #161616);
+  margin: 10vh;
+  background: transparent;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;*/
+  //font-size: 30px;font-weight: 400;margin-bottom: 70px;text-transform: capitalize;position: relative;line-height: 44px;
+  text-decoration-color: colors.$red-50;
+  text-decoration-line: underline;
+  text-underline-offset: 1em;
+  text-decoration-thickness: 11%;
+}
+
+
+
+.experience-layout {
+  margin: 3vh;
+  @media (min-width:640px) {
+    //padding-left: 1vh;
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
+}

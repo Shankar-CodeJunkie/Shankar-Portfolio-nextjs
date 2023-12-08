@@ -9,9 +9,17 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@carbon/charts-react": "^1.13.8",
+    "@carbon/colors": "^11.17.1",
+    "@carbon/icons-react": "^11.22.1",
+    "@carbon/react": "^1.42.1",
+    "aos": "^2.3.4",
+    "axios": "^1.6.2",
+    "next": "14.0.1",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.0.1"
+    "react-vertical-timeline-component": "^3.6.0",
+    "sass": "1.51.0"
   },
   "devDependencies": {
     "eslint": "^8",

@@ -1,0 +1,41 @@
+@use '@carbon/react/scss/spacing' as *;
+@use '@carbon/react/scss/type' as *;
+@use '@carbon/react/scss/breakpoint' as *;
+@use '@carbon/react/scss/theme' as *;
+@use '@carbon/colors';
+//@import '@carbon/colors/scss/colors';
+
+
+.skill-tile{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+    padding: 1rem;
+    margin: 1px;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-color: var(--cds-layer, #161616);
+    position: relative;
+    margin-bottom: 1vh;
+}
+
+
+.skill-container {
+    border-radius: 20px;
+    //background-color: colors.$red-50;
+    margin-top: 1vh;
+}  
+
+.skill-header {
+    @include type-style('label-02');
+    margin-left: '26px'
+}
+
+.tile-headerv1 {
+    @include type-style('heading-02');
+}
+  
+.tile-body {
+    @include type-style('body-compact-02');
+} 

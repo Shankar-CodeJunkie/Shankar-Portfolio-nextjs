@@ -1,0 +1,27 @@
+@use '@carbon/react/scss/spacing' as *;
+@use '@carbon/react/scss/type' as *;
+@use '@carbon/react/scss/breakpoint' as *;
+@use '@carbon/react/scss/theme' as *;
+@use '@carbon/colors';
+//@import '@carbon/colors/scss/colors';
+
+.TileHeader {
+    @include type-style('heading-02');
+}
+
+.TileBody {
+    @include type-style('body-01');
+    .TileBody-ListItems {
+
+    padding-left: 2vh;
+    }
+}
+
+.TileFooter {
+    @include type-style('body-01');
+    padding-top: 1vh;
+}
+
+.TileLayout {
+    border-radius: 2vh;
+}

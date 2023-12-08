@@ -1,0 +1,14 @@
+@use '@carbon/react';
+@use '@carbon/react/scss/breakpoint' as *;
+@use '~@carbon/react/scss/spacing' as *;
+@use '@carbon/react/scss/theme' as *;
+@use '@carbon/colors' as *;
+@use '@carbon/grid';
+@use '@carbon/type';
+@include grid.flex-grid();
+
+
+body {
+  //background: colors.$blue-50;
+  color: react.$text-primary;
+}
