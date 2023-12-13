@@ -10,7 +10,7 @@ export default function Awards() {
 
                   
                   <Column lg={4} md={4} sm={4} >
-                    <Tile className={'award-tite'} hasRoundedCorners={true} slug={''}>
+                    <Tile className={'award-tile'} >
                         <Grid>
                             <Column lg={{span:1}} sm={1} md={1}>
                                 <Trophy size={48} />
@@ -31,7 +31,7 @@ export default function Awards() {
                 
                   </Column>
                   <Column lg={4} md={4} sm={4} >
-                  <Tile className={'award-tite'} hasRoundedCorners={true} slug={''}>
+                  <Tile className={'award-tile'} >
                         <Grid>
                             <Column lg={{span:1}} sm={1} md={1}>
                                 <Trophy size={48} />
@@ -51,7 +51,7 @@ export default function Awards() {
                     </Tile>
                   </Column>
                   <Column lg={4} md={4} sm={4} >
-                  <Tile className={'award-tite'} hasRoundedCorners={true} slug={''}>
+                  <Tile className={'award-tile'} >
                         <Grid>
                             <Column lg={{span:1}} sm={1} md={1}>
                                 <Trophy size={48} />
@@ -72,7 +72,7 @@ export default function Awards() {
                     </Tile>
                   </Column>
                   <Column lg={4} md={4} sm={4} >
-                  <Tile className={'award-tite'} hasRoundedCorners={true} slug={''}>
+                  <Tile className={'award-tile'} >
                         <Grid>
                             <Column lg={{span:1}} sm={1} md={1}>
                                 <Trophy size={48} />

@@ -12,10 +12,32 @@
     background-color: var(--cds-layer-01);
 }
 
-.award-tite {
+.award-tile {
     margin: 20px;
     margin-top: 40px;
     background-color: var(--cds-background);
+    animation: glow duration timing-function delay iteration-count direction fill-mode;
+    box-shadow: 0 0 10px colors.$purple-50;
+}
+
+.award-tile::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-width: 0 50px 50px 0;
+    border-color: transparent transparent #e74c3c transparent;
+    border-style: solid;
+}
+
+.award-tile::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-width: 0 50px 50px 0;
+    border-color: transparent #e74c3c  transparent transparent;
+    border-style: solid;
 }
 
 .award-header {
@@ -45,4 +67,13 @@
     @include type-style('heading-compact-01');
     margin: 2vh;
     color: var(--cds-layer-04)
+}
+
+@keyframes glow {
+    from {
+
+    }
+    to {
+
+    }
 }
