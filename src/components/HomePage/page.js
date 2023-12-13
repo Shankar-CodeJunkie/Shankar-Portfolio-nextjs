@@ -19,6 +19,7 @@ import Skills from '../Skills/page';
 import Offerings from '../Offerings/page';
 import './_homepage.scss';
 import Image from 'next/image';
+import Awards from '../Awards/page';
 
 const HomePage = () => {
     useEffect(() => {
@@ -129,6 +130,15 @@ const HomePage = () => {
 
             <Column lg={{ span: 16, offset: 1 }} md={8} sm={{ span: 4, start: 1 }} className="landing-page__r3 experience-layout" style={{ margin: '1vh' }}>
                 <ContributionGraph />
+            </Column>
+
+            <Column lg={16} md={8} sm={{ span: 4, start: 1 }} className="landing-page__r3 experience-layout" style={{ margin: '3vh' }}>
+                <h1 className={'experience-header'}>Awards</h1>
+            </Column>
+
+            <Column lg={{span:16, offset:1}} md={8} sm={{ span: 4, start: 1 }} className="landing-page__r3 experience-layout" style={{ margin: '1vh' }}>
+                <Awards />
+
             </Column>
 
         </Grid>

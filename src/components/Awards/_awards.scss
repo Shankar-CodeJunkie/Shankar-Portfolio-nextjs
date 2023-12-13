@@ -1,0 +1,48 @@
+@use '@carbon/react/scss/spacing' as *;
+@use '@carbon/react/scss/type' as *;
+@use '@carbon/react/scss/breakpoint' as *;
+@use '@carbon/react/scss/theme' as *;
+//@use './mixins.scss' as *;
+//@use './overrides.scss';
+@use '@carbon/colors';
+@use '@carbon/themes';
+
+
+.award-tile-background {
+    background-color: var(--cds-layer-01);
+}
+
+.award-tite {
+    margin: 20px;
+    margin-top: 40px;
+    background-color: var(--cds-background);
+}
+
+.award-header {
+    @include type-style('heading-04');
+    margin: 2vh;
+    //color: colors.$red-50;
+    /*color:  var(--cds-text-primary, #161616);
+    margin: 10vh;
+    background: transparent;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;*/
+    //font-size: 30px;font-weight: 400;margin-bottom: 70px;text-transform: capitalize;position: relative;line-height: 44px;
+    text-decoration-color: colors.$red-50;
+    text-decoration-line: underline;
+    text-underline-offset: 1em;
+    text-decoration-thickness: 11%;
+}
+
+.tile-header {
+    @include type-style('heading-03');
+    margin: 2vh;
+    color:  var(--cds-focus);
+}
+
+.tile-footer {
+    @include type-style('heading-compact-01');
+    margin: 2vh;
+    color: var(--cds-layer-04)
+}
