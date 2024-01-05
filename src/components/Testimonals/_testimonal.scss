@@ -1,0 +1,39 @@
+@use '@carbon/react/scss/spacing' as *;
+@use '@carbon/react/scss/type' as *;
+@use '@carbon/react/scss/breakpoint' as *;
+@use '@carbon/react/scss/theme' as *;
+//@use './mixins.scss' as *;
+//@use './overrides.scss';
+@use '@carbon/colors';
+@use '@carbon/themes';
+
+.testimonal-title {
+    @include type-style('heading-04');
+    //background-color: themes.$background-inverse;
+    //color: themes.$text-inverse;
+   // margin-left: 25vh !important;
+    //margin-right: 25vh !important;
+    //height: 10vh;
+    border-radius: 5vh;
+}
+
+.testimonal-body {
+    @include type-style('body-compact-02');
+
+}
+
+.testimonal-author {
+    @include type-style('heading-04');
+    padding-bottom: 3vh;
+}
+
+.testimonal-author-company {
+    @include type-style('expressive-heading-01');
+    padding-bottom: 3vh;
+}
+
+.testimonal-image {
+    //height: 20vh;
+    //margin-left: 25vh !important;
+    //margin-right: 25vh !important;
+}

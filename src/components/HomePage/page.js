@@ -20,6 +20,7 @@ import Offerings from '../Offerings/page';
 import './_homepage.scss';
 import Image from 'next/image';
 import Awards from '../Awards/page';
+import Testimonals from '../Testimonals/page';
 
 const HomePage = () => {
     useEffect(() => {
@@ -138,6 +139,15 @@ const HomePage = () => {
 
             <Column lg={{span:16, offset:1}} md={8} sm={{ span: 4, start: 1 }} className="landing-page__r3 experience-layout" style={{ margin: '1vh' }}>
                 <Awards />
+
+            </Column>
+
+            <Column lg={16} md={8} sm={{span:4, start: 1}} className='landing-page__r3 experience-layout' style={{margin: '1vh'}}>
+            <h1 className={'experience-header'}>Testimonals</h1>
+            </Column>
+
+            <Column lg={{span:16, offset: 1}} md={8} sm={{span:4, start:1 }} className="landing-page__r3 experience-layout" style={{ margin: '1vh' }}>
+                <Testimonals />
 
             </Column>
 

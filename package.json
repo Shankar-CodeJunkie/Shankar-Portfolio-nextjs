@@ -11,6 +11,7 @@
   "dependencies": {
     "@carbon/charts-react": "^1.13.8",
     "@carbon/colors": "^11.17.1",
+    "@carbon/ibmdotcom-web-components": "^2.0.0",
     "@carbon/icons-react": "^11.22.1",
     "@carbon/react": "^1.42.1",
     "aos": "^2.3.4",
@@ -19,7 +20,10 @@
     "react": "^18",
     "react-dom": "^18",
     "react-vertical-timeline-component": "^3.6.0",
-    "sass": "1.51.0"
+    "sass": "1.51.0",
+    "swiper": "^11.0.5",
+    "@carbon/ibmdotcom-react": "^1.44.0",
+    "@carbon/ibmdotcom-styles": "^1.44.0"
   },
   "devDependencies": {
     "eslint": "^8",
